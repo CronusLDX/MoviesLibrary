@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body,html{
+    font-family: 'Arsenal SC',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    background: rgb(17, 17, 17);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(233, 219, 29);
+    transition: 0.6s;
+}
+
+a:hover{
+    color: rgb(175, 149, 1);
+}
