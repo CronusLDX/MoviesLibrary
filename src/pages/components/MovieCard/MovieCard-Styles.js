@@ -43,7 +43,7 @@ export const Title = styled.h2`
 `;
 
 export const Votos = styled.p`
-  padding-top: 15px;
+  padding-top: 30px;
   padding-bottom: 10px;
   color: white;
   font-size: 30px;
