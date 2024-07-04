@@ -9,6 +9,7 @@ import {
 } from "react-icons/bs";
 
 import MovieCard from "./components/MovieCard/MovieCard";
+import Footer from './components/Footer/Footer'
 import { Container, ContainerContent, Description, MovieTagline, TitleDescription } from "./Movie-Styles";
 import Navbar from '../pages/components/navbar/Navbar';
 import { moviesURL, apiKey } from "../services/api";
@@ -71,6 +72,7 @@ const Movie = () => {
           </TitleDescription>
         </ContainerContent>
       )}
+      <Footer />
     </Container>
   );
 };

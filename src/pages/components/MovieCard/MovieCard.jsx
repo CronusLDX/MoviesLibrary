@@ -28,9 +28,5 @@ MovieCard.propTypes = {
   NoBorder: PropTypes.bool,
 };
 
-MovieCard.defaultProps = {
-  showLink: true,
-  NoBorder: false,
-};
 
 export default MovieCard;

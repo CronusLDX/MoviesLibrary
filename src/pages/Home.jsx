@@ -6,6 +6,7 @@ import { Outlet } from 'react-router-dom'
 
 import { Container } from './Home-Styles'
 import Navbar from './components/navbar/Navbar'
+import Footer from './components/Footer/Footer'
 import HomeContent from './components/HomeContent/HomeContent'
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <Outlet/>
       <Navbar />
       <HomeContent />
+      <Footer />
    </Container>
   )
 }

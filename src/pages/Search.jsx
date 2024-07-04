@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import MovieCard from '../pages/components/MovieCard/MovieCard';
+import Footer from './components/Footer/Footer'
 import Navbar from '../pages/components/navbar/Navbar';
 import { MoviesContainer, Title } from "./components/HomeContent/HomeContent-Styles";
 import { searchURL, apiKey } from "../services/api";
@@ -50,6 +51,7 @@ const Search = () => {
           ))
         }
       </MoviesContainer>
+      <Footer />
     </Container>
   );
 };
