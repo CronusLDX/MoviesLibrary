@@ -20,7 +20,7 @@ const MovieCard = ({ movie, showLink = true, NoBorder = false }) => {
 
 MovieCard.propTypes = {
   movie: PropTypes.shape({
-    poster_path: PropTypes.string.isRequired,
+    poster_path: PropTypes.string,
     vote_average: PropTypes.number.isRequired,
     id: PropTypes.number.isRequired,
   }).isRequired,
