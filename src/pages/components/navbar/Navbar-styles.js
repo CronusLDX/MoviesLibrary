@@ -15,10 +15,16 @@ justify-content: space-between;
 align-items: center;
 padding: 5px 5px 5px 5px ;
 background-color: black;
+
+@media screen and (max-width:400px){
+  padding: 2px 2px 2px 2px ;
+}
 `
 export const NavElements = styled.h2`
 display: flex;
-padding: 10px 10px 10px 10px;
+padding-top: 7px;
+padding-bottom: 7px;
+padding-right: 4px;
 `
 export const NavBrand = styled(Link)`
   font-size: 25px;
@@ -37,15 +43,14 @@ export const NavBrand = styled(Link)`
     font-size: 20px;
   }
 
+  @media screen and (max-width:400px){
+  font-size: 18px;
+}
+
 `
 export const FormNav = styled.form`
 display:flex;
-@media screen and (max-width: 768px){
-   font-size: 15px;
-  }
-@media screen and (max-width: 576px){
-   font-size: 15px;
-  }
+  
 `
 export const NavInput = styled.input`
   padding: 7px 7px 7px 7px;
@@ -64,6 +69,10 @@ export const NavInput = styled.input`
   width: 200px;
   height: 35px;
   }
+  @media screen and (max-width:400px){
+    width: 185px;
+    height: 30px;
+  }
 `
 
 export const NavButton = styled.button`
@@ -78,5 +87,8 @@ border-bottom-right-radius: 20px;
   }
 @media screen and (max-width: 576px){
   padding: 6px 6px 6px 6px;
+  }
+  @media screen and (max-width:400px){
+    padding: 2px 2px 2px 2px;
   }
 `

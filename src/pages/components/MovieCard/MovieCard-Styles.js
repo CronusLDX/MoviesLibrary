@@ -23,6 +23,10 @@ export const Container = styled.section.withConfig({
     width: 400px;
     height: 700px;
   }
+  @media screen and (max-width: 576px) {
+    width: 370px;
+    height: 670px;
+  }
 `;
 
 export const Imagem = styled.img`

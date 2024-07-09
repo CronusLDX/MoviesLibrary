@@ -21,5 +21,5 @@ height: 60px;
 
 export const FooterText = styled.span`
 color:  rgb(233, 219, 29);
-font-size: 21px;
+font-size: 19px;
 `

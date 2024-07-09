@@ -20,6 +20,9 @@ color: rgb(233, 219, 29);
 @media screen and (max-width:576px){
   font-size: 22px;
 }
+@media screen and (max-width:400px){
+  font-size: 18px;
+}
 `
 
 export const MoviesContainer = styled.section`
