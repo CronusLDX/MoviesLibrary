@@ -13,7 +13,7 @@ height: 100%;
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 10px 10px 10px 10px ;
+padding: 5px 5px 5px 5px ;
 background-color: black;
 `
 export const NavElements = styled.h2`
@@ -21,7 +21,7 @@ display: flex;
 padding: 10px 10px 10px 10px;
 `
 export const NavBrand = styled(Link)`
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
   text-decoration: none;
   display: flex;
@@ -30,32 +30,40 @@ export const NavBrand = styled(Link)`
   gap: 0.15rem;
 
   @media screen and (max-width: 768px){
-    font-size: 30px;
+    font-size: 20px;
   }
 
   @media screen and (max-width: 576px){
-    font-size: 25px;
+    font-size: 20px;
   }
 
 `
 export const FormNav = styled.form`
 display:flex;
 @media screen and (max-width: 768px){
-   font-size: 20px;
+   font-size: 15px;
   }
 @media screen and (max-width: 576px){
-   font-size: 25px;
+   font-size: 15px;
   }
 `
 export const NavInput = styled.input`
-  padding: 10px 10px 10px 10px;
+  padding: 7px 7px 7px 7px;
   outline: none;
   border: none;
   border-top-left-radius: 20px ;
   border-bottom-left-radius: 20px;
-  width: 250px;
-  height: 50px;
-  font-size: 20px;
+  width: 230px;
+  height: auto;
+  font-size: 15px;
+  @media screen and (max-width: 768px){
+    width: 200px;
+    height: 35px;
+  }
+@media screen and (max-width: 576px){
+  width: 200px;
+  height: 35px;
+  }
 `
 
 export const NavButton = styled.button`
@@ -65,4 +73,10 @@ color: black;
 border: none;
 border-top-right-radius: 20px ;
 border-bottom-right-radius: 20px;
+@media screen and (max-width: 768px){
+  padding: 6px 6px 6px 6px;
+  }
+@media screen and (max-width: 576px){
+  padding: 6px 6px 6px 6px;
+  }
 `

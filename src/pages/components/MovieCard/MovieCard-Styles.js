@@ -9,32 +9,32 @@ export const Container = styled.section.withConfig({
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 450px;
-  height: 760px;
+  width: 400px;
+  height: 730px;
   border:  ${({ NoBorder }) => (NoBorder ? 'none' : '0.12rem solid rgb(175, 149, 1)')};
   background-color: black;
   border-radius: 8px;
 
   @media screen and (max-width: 768px) {
-    width: 520px;
-    height: 800px;
+    width: 400px;
+    height: 700px;
   }
   @media screen and (max-width: 576px) {
-    width: 480px;
+    width: 400px;
     height: 700px;
   }
 `;
 
 export const Imagem = styled.img`
   width: 390px;
-  height: 580px;
+  height: 560px;
   @media screen and (max-width: 768px) {
-    width: 490px;
-    height: 660px;
+    width: 390px;
+    height: 560px;
   }
   @media screen and (max-width: 576px) {
-    width: 450px;
-    height: 570px;
+    width: 350px;
+    height: 500px;
   }
 `;
 
@@ -43,10 +43,17 @@ export const Title = styled.h2`
 `;
 
 export const Votos = styled.p`
-  padding-top: 15px;
+  padding-top: 30px;
   padding-bottom: 10px;
   color: white;
   font-size: 30px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 22px;
+  }
+  @media screen and (max-width: 576px) {
+    font-size: 22px;
+  }
 `;
 
 export const DetalhesContainer = styled.div`
@@ -64,6 +71,13 @@ export const DetalhesContainer = styled.div`
   border-radius: 8px;
   padding: 7px 7px 7px 7px;
 
+  @media screen and (max-width: 768px) {
+    height: 1.5rem;
+  }
+  @media screen and (max-width: 576px) {
+    height: 1.5rem;
+  }
+
   &:hover {
     background-color: transparent;
     transition: 0.3s;
@@ -79,6 +93,12 @@ export const Detalhes = styled(Link)`
   font-size: 25px;
   font-weight: 500;
   color: black;
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 576px) {
+    font-size: 20px;
+  }
 
   &:hover {
     color: yellow;

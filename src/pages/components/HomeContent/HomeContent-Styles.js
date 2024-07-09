@@ -9,16 +9,16 @@ export const Container = styled.section`
 `
 
 export const Title = styled.h2`
-font-size: 40px;
+font-size: 32px;
 font-weight: 400;
 margin-top: 30px;
 color: rgb(233, 219, 29);
 
 @media screen and (max-width:768px){
-  font-size: 35px;
+  font-size: 28px;
 }
 @media screen and (max-width:576px){
-  font-size: 26px;
+  font-size: 22px;
 }
 `
 
@@ -29,17 +29,17 @@ grid-template-rows: auto;
 justify-content: center;
 align-items: center;
 text-align: center;
-grid-gap: 4rem;
+grid-gap: 2rem;
 margin-top: 60px;
 margin-bottom: 20px;
 
 @media screen and (max-width: 768px){
   grid-template-columns: 1fr;
-  grid-gap: 2rem;
+  grid-gap: 1.5rem;
 }
 @media screen and (max-width: 576px){
   grid-template-columns: 1fr;
-  grid-gap: 2rem;
+  grid-gap: 1.5rem;
 }
 
 `
