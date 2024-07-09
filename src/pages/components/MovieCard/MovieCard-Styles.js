@@ -23,7 +23,7 @@ export const Container = styled.section.withConfig({
     width: 400px;
     height: 700px;
   }
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 500px) {
     width: 370px;
     height: 670px;
   }
@@ -39,6 +39,10 @@ export const Imagem = styled.img`
   @media screen and (max-width: 576px) {
     width: 350px;
     height: 500px;
+  }
+  @media screen and (max-width: 500px) {
+    width: 300px;
+    height: 480px;
   }
 `;
 
@@ -57,6 +61,9 @@ export const Votos = styled.p`
   }
   @media screen and (max-width: 576px) {
     font-size: 22px;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 18px;
   }
 `;
 
@@ -81,6 +88,9 @@ export const DetalhesContainer = styled.div`
   @media screen and (max-width: 576px) {
     height: 1.5rem;
   }
+  @media screen and (max-width: 500px) {
+    height: 1.0rem;
+  }
 
   &:hover {
     background-color: transparent;
@@ -102,6 +112,9 @@ export const Detalhes = styled(Link)`
   }
   @media screen and (max-width: 576px) {
     font-size: 20px;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 18px;
   }
 
   &:hover {

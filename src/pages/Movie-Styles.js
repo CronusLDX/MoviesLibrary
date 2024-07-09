@@ -26,17 +26,31 @@ export const ContainerContent = styled.section`
  border: 1px solid yellow;
 
  @media screen and (max-width: 768px){
-  width: 75%;
+  width: 70%;
  }
- @media screen and (max-width: 768px){
-  width: 85%;
+ @media screen and (max-width: 576px){
+  width: 70%;
+ }
+ @media screen and (max-width: 490px){
+  width: 80%;
  }
 `
 
 export const MovieTagline = styled.p`
 padding-top: 20px;
-padding-bottom: 10px;
-font-size: 35px;
+padding-bottom: 15px;
+font-size: 30px;
+font-weight: 400;
+
+@media screen and (max-width: 768px){
+  font-size: 25px;
+ }
+ @media screen and (max-width: 576px){
+  font-size: 18px;
+ }
+ @media screen and (max-width: 500px){
+  font-size: 18px;
+ }
 `
 
 export const Info = styled.div`
@@ -52,6 +66,15 @@ padding: 8px 8px 8px 8px;
 font-weight: 400;
 font-size: 30px;
 text-align: center;
+@media screen and (max-width: 768px){
+  font-size: 25px;
+ }
+ @media screen and (max-width: 576px){
+  font-size: 22px;
+ }
+ @media screen and (max-width: 490px){
+  font-size: 18px;
+ }
 `
 export const Description = styled.p`
 font-size: 23px;
@@ -60,4 +83,13 @@ text-align: center;
 padding-top: 15px;
 padding-right: 15px;
 padding-left: 15px;
+@media screen and (max-width: 768px){
+  font-size: 20px;
+ }
+ @media screen and (max-width: 576px){
+  font-size: 18px;
+ }
+ @media screen and (max-width: 490px){
+  font-size: 18px;
+ }
 `
