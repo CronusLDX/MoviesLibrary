@@ -26,13 +26,13 @@ export const ContainerContent = styled.section`
  border: 1px solid yellow;
 
  @media screen and (max-width: 768px){
-  width: 70%;
+  width: 78%;
  }
  @media screen and (max-width: 576px){
-  width: 70%;
+  width: 78%;
  }
  @media screen and (max-width: 490px){
-  width: 80%;
+  width: 88%;
  }
 `
 
