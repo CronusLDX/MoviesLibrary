@@ -41,7 +41,7 @@ export const Imagem = styled.img`
     height: 500px;
   }
   @media screen and (max-width: 500px) {
-    width: 270px;
+    width: 255px;
     height: 460px;
   }
 `;
