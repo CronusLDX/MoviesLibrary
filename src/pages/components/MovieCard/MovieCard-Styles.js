@@ -33,16 +33,16 @@ export const Imagem = styled.img`
   width: 390px;
   height: 560px;
   @media screen and (max-width: 768px) {
-    width: 380px;
-    height: 560px;
+    width: 375px;
+    height: 570px;
   }
   @media screen and (max-width: 576px) {
-    width: 340px;
-    height: 500px;
+    width: 335px;
+    height: 510px;
   }
   @media screen and (max-width: 500px) {
-    width: 245px;
-    height: 460px;
+    width: 240px;
+    height: 470px;
   }
 `;
 
